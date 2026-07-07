@@ -4,7 +4,7 @@ let socket = null;
 
 export const getSocket = () => {
   if (!socket) {
-    socket = io("http://localhost:5000", {
+    socket = io("https://collaborative-whiteboard-main-1.onrender.com", {
       transports: ["websocket"],
       autoConnect: true,
     });
