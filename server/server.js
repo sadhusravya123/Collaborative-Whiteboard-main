@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 import cors from "cors";
 import http from "http";
 import { Server } from "socket.io";
-import ConnectionDB from "./db/db.js";
 import mainRoute from "./routes/main.routes.js";
 import { socketHandlers } from "./socket/socketHandlers.js";
 
@@ -24,8 +23,7 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-// Database connection
-ConnectionDB();
+
 
 // API Routes
 app.use("/api/v1", mainRoute);
