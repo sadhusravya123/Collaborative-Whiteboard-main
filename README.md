@@ -207,8 +207,7 @@ Set  ``` env VITE_BACKEND_URL=https://your-backend-url.com ``` in your .env.prod
  - Active user tracking
  -----
 
-📝 License
-MIT © 2025 Amisha
+
 
 
 
