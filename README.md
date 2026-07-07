@@ -207,7 +207,11 @@ Set  ``` env VITE_BACKEND_URL=https://your-backend-url.com ``` in your .env.prod
  - Active user tracking
  -----
 
+### Live Demo
+https://collaborative-whiteboard-main-theta.vercel.app/
 
+### Demo Video
+https://drive.google.com/file/d/1I_wHpBFXU6WXqMKbYBCRvajxgemWpoZc/view?usp=sharing
 
 
 
